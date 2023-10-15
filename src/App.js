@@ -73,7 +73,7 @@ function App() {
             key={data.id}
             path={`/videos/${data.BookNameurl}`}
             exact
-            element={<ChapterVideo videoIds={data.src} />}
+            element={<ChapterVideo videoIds={data.src} url={data.BookNameurl}/>}
           />
         ))}
         {/* class 2 */}
@@ -91,7 +91,7 @@ function App() {
             key={data.id}
             path={`/videos/${data.BookNameurl}`}
             exact
-            element={<ChapterVideo videoIds={data.src} />}
+            element={<ChapterVideo videoIds={data.src} url={data.BookNameurl}/>}
           />
         ))}
         {/* class 4 */}
@@ -100,7 +100,7 @@ function App() {
             key={data.id}
             path={`/videos/${data.BookNameurl}`}
             exact
-            element={<ChapterVideo videoIds={data.src} />}
+            element={<ChapterVideo videoIds={data.src} url={data.BookNameurl}/>}
           />
         ))}
         {/* class 5 */}
@@ -109,7 +109,7 @@ function App() {
             key={data.id}
             path={`/videos/${data.BookNameurl}`}
             exact
-            element={<ChapterVideo videoIds={data.src} />}
+            element={<ChapterVideo videoIds={data.src} url={data.BookNameurl}/>}
           />
         ))}{" "}
         {/* class 6 */}
@@ -118,7 +118,7 @@ function App() {
             key={data.id}
             path={`/videos/${data.BookNameurl}`}
             exact
-            element={<ChapterVideo videoIds={data.src} />}
+            element={<ChapterVideo videoIds={data.src} url={data.BookNameurl}/>}
           />
         ))}{" "}
         {/* class 7 */}
@@ -127,7 +127,7 @@ function App() {
             key={data.id}
             path={`/videos/${data.BookNameurl}`}
             exact
-            element={<ChapterVideo videoIds={data.src} />}
+            element={<ChapterVideo videoIds={data.src} url={data.BookNameurl}/>}
           />
         ))}{" "}
         {/* class 8 */}
@@ -136,7 +136,7 @@ function App() {
             key={data.id}
             path={`/videos/${data.BookNameurl}`}
             exact
-            element={<ChapterVideo videoIds={data.src} />}
+            element={<ChapterVideo videoIds={data.src} url={data.BookNameurl}/>}
           />
         ))}
         {/* class Nursery */}
@@ -145,7 +145,7 @@ function App() {
             key={data.id}
             path={`/videos/${data.BookNameurl}`}
             exact
-            element={<ChapterVideo videoIds={data.src} />}
+            element={<ChapterVideo videoIds={data.src} url={data.BookNameurl}/>}
           />
         ))}
         {/* class lkg */}
@@ -154,7 +154,7 @@ function App() {
             key={data.id}
             path={`/videos/${data.BookNameurl}`}
             exact
-            element={<ChapterVideo videoIds={data.src} />}
+            element={<ChapterVideo videoIds={data.src} url={data.BookNameurl}/>}
           />
         ))}
         {/* class ukg */}
@@ -163,7 +163,7 @@ function App() {
             key={data.id}
             path={`/videos/${data.BookNameurl}`}
             exact
-            element={<ChapterVideo videoIds={data.src} />}
+            element={<ChapterVideo videoIds={data.src} url={data.BookNameurl}/>}
           />
         ))}
       </Routes>
