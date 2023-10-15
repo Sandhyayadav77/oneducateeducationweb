@@ -17,9 +17,9 @@ const Class2 = () => {
           </div>
          <div className="nursery-books flex columns-4 flex-wrap gap-3 mx-auto">
          {
-            Class2Data.map((Class2,id)=>{
+            Class2Data.map((Class2, id )=>{
               return(
-                <ClassCard  classNameForPdf={classNameForPdf}  bookname={Class2.BookName} url={Class2.BookNameurl} fileId={Class2.fileId}/>
+                <ClassCard key={id} classNameForPdf={classNameForPdf}  bookname={Class2.BookName} url={Class2.BookNameurl} fileId={Class2.fileId}/>
               )
             })
           }

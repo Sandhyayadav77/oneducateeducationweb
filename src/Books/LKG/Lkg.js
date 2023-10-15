@@ -18,7 +18,7 @@ const Lkg = () => {
            {
               LkgData.map((lkg,id)=>{
                 return(
-                  <ClassCard bookname={lkg.BookName}   classNameForPdf={classNameForPdf}   url={lkg.BookNameurl} fileId={lkg.fileId}/>
+                  <ClassCard  key={id}  bookname={lkg.BookName}   classNameForPdf={classNameForPdf}   url={lkg.BookNameurl} fileId={lkg.fileId}/>
                 )
               })
             }

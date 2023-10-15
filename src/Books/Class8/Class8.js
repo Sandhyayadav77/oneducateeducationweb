@@ -19,7 +19,7 @@ const Class8 = () => {
          {
             Class8Data.map((Class8,id)=>{
               return(
-                <ClassCard  bookname={Class8.BookName}   classNameForPdf={classNameForPdf}   url={Class8.BookNameurl} fileId={Class8.fileId}/>
+                <ClassCard  key={id}  bookname={Class8.BookName}   classNameForPdf={classNameForPdf}   url={Class8.BookNameurl} fileId={Class8.fileId}/>
               )
             })
           }

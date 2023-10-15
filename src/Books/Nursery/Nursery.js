@@ -20,7 +20,7 @@ const Nursery = () => {
            {
               NurseryData.map((nurserybook,id)=>{
                 return(
-                  <ClassCard  bookname={nurserybook.BookName} url={nurserybook.BookNameurl}   classNameForPdf={classNameForPdf} fileId={nurserybook.fileId} />
+                  <ClassCard  key={id}  bookname={nurserybook.BookName} url={nurserybook.BookNameurl}   classNameForPdf={classNameForPdf} fileId={nurserybook.fileId} />
                 )
               })
             }

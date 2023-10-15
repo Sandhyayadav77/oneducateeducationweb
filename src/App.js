@@ -1,37 +1,43 @@
-
-import { Route, Routes , Navigate} from 'react-router-dom'
-import Home from './Pages/Home';
-import Contact from './components/Contact';
-import Header from './components/Header';
-import Books from './Category/Books';
-import Footer from './components/Footer';
-import Nursery from './Books/Nursery/Nursery';
-import Lkg from './Books/LKG/Lkg';
-import Ukg from './Books/Ukg/Ukg';
-import Class1 from './Books/Class1/Class1';
-import Class2 from './Books/Class2/Class2';
-import Class3 from './Books/Class3/Class3';
-import Class4 from './Books/Class4/Class4';
-import Class5 from './Books/Class5/Class5';
-import Class6 from './Books/Class6/Class6';
-import Class7 from './Books/Class7/Class7';
-import Class8 from './Books/Class8/Class8';
-import NurseryData from './Books/Nursery/Nursery.json'
-import Class1Data from './Books/Class1/Class1.json'
-import Class2Data from './Books/Class2/Class2.json'
-import Class4Data from './Books/Class4/Class4.json'
-import ChapterVideo from './components/ChapterVideo';
+import { Route, Routes, Navigate, useParams } from "react-router-dom";
+import Home from "./Pages/Home";
+import Contact from "./components/Contact";
+import Header from "./components/Header";
+import Books from "./Category/Books";
+import Footer from "./components/Footer";
+import Nursery from "./Books/Nursery/Nursery";
+import Lkg from "./Books/LKG/Lkg";
+import Ukg from "./Books/Ukg/Ukg";
+import Class1 from "./Books/Class1/Class1";
+import Class2 from "./Books/Class2/Class2";
+import Class3 from "./Books/Class3/Class3";
+import Class4 from "./Books/Class4/Class4";
+import Class5 from "./Books/Class5/Class5";
+import Class6 from "./Books/Class6/Class6";
+import Class7 from "./Books/Class7/Class7";
+import Class8 from "./Books/Class8/Class8";
+import NurseryData from "./Books/Nursery/Nursery.json";
+import LkgData from "./Books/LKG/Lkg.json";
+import UkgData from "./Books/Ukg/Ukg.json";
+import Class1Data from "./Books/Class1/Class1.json";
+import Class2Data from "./Books/Class2/Class2.json";
+import Class3Data from "./Books/Class3/Class3.json";
+import Class4Data from "./Books/Class4/Class4.json";
+import Class5Data from "./Books/Class5/Class5.json";
+import Class6Data from "./Books/Class6/Class6.json";
+import Class7Data from "./Books/Class7/Class7.json";
+import Class8Data from "./Books/Class8/Class8.json";
+import ChapterVideo from "./components/ChapterVideo";
 // import ChapterPdf from './components/ChapterPdf';
-import PDFPage from './components/PDFPage';
-import PdfViewerPage from './components/PdfViewerPage';
-import NotFound from './components/NotFound';
+import PDFPage from "./components/PDFPage";
+import PdfViewerPage from "./components/PdfViewerPage";
+import NotFound from "./components/NotFound";
 
 // console.log(Class2Data)
 // console.log(NurseryData)
 function App() {
+  const { fileId } = useParams();
   return (
     <>
-
       <Header />
       <Routes>
         <Route exact path="/" Component={Home} />
@@ -49,35 +55,122 @@ function App() {
         <Route exact path="/books/7" Component={Class7} />
         <Route exact path="/books/8" Component={Class8} />
         <Route
-        exact   path="/pdf/:className/:subjectName/:fileId"
+          exact
+          path="/pdf/:className/:subjectName/:fileId"
           element={<PdfViewerPage />}
         />
-         <Route path="not-found" element={<NotFound />} /> 
-         <Route exact path="*" element={<Navigate to="/not-found" />} />
+        <Route path="not-found" element={<NotFound />} />
+        <Route exact path="*" element={<Navigate to="/not-found" />} />
+        {/* <Route exact path="*" element={<Navigate to="/not-found" />} /> */}
         {/* <Route exact path="/books/pdf" Component={ChapterPdf} /> */}
         {/* nursery route */}
-       {/* {
+        {/* {
         NurseryData.map((data)=> <Route key={data.id} path={`/videos/${data.BookNameurl}`} exact element={<ChapterVideo videoId={data.src}/>}/>)
        } */}
-       {/* class 1 */}
-       {
-        Class1Data.map((data)=> <Route key={data.id} path={`/videos/${data.BookNameurl}`} exact element={<ChapterVideo videoIds={data.src}/>}/>)
-       }
-       {/* class 2 */}
-       {
-        Class2Data.map((data)=> <Route key={data.id} path={`/videos/${data.BookNameurl}`} exact element={<ChapterVideo videoIds={data.src}/>}/>)
-       }
+        {/* class 1 */}
+        {Class1Data.map((data) => (
+          <Route
+            key={data.id}
+            path={`/videos/${data.BookNameurl}`}
+            exact
+            element={<ChapterVideo videoIds={data.src} />}
+          />
+        ))}
+        {/* class 2 */}
+        {Class2Data.map((data) => (
+          <Route
+            key={data.id}
+            path={`/videos/${data.BookNameurl}`}
+            exact
+            element={<ChapterVideo videoIds={data.src} url={data.BookNameurl}/>}
+          />
+        ))}
+        {/* class 3 */}
+        {Class3Data.map((data) => (
+          <Route
+            key={data.id}
+            path={`/videos/${data.BookNameurl}`}
+            exact
+            element={<ChapterVideo videoIds={data.src} />}
+          />
+        ))}
         {/* class 4 */}
-        {
-        Class4Data.map((data)=> <Route key={data.id} path={`/videos/${data.BookNameurl}`} exact element={<ChapterVideo videoIds={data.src}/>}/>)
-       }
+        {Class4Data.map((data) => (
+          <Route
+            key={data.id}
+            path={`/videos/${data.BookNameurl}`}
+            exact
+            element={<ChapterVideo videoIds={data.src} />}
+          />
+        ))}
+        {/* class 5 */}
+        {Class5Data.map((data) => (
+          <Route
+            key={data.id}
+            path={`/videos/${data.BookNameurl}`}
+            exact
+            element={<ChapterVideo videoIds={data.src} />}
+          />
+        ))}{" "}
+        {/* class 6 */}
+        {Class6Data.map((data) => (
+          <Route
+            key={data.id}
+            path={`/videos/${data.BookNameurl}`}
+            exact
+            element={<ChapterVideo videoIds={data.src} />}
+          />
+        ))}{" "}
+        {/* class 7 */}
+        {Class7Data.map((data) => (
+          <Route
+            key={data.id}
+            path={`/videos/${data.BookNameurl}`}
+            exact
+            element={<ChapterVideo videoIds={data.src} />}
+          />
+        ))}{" "}
+        {/* class 8 */}
+        {Class8Data.map((data) => (
+          <Route
+            key={data.id}
+            path={`/videos/${data.BookNameurl}`}
+            exact
+            element={<ChapterVideo videoIds={data.src} />}
+          />
+        ))}
+        {/* class Nursery */}
+        {NurseryData.map((data) => (
+          <Route
+            key={data.id}
+            path={`/videos/${data.BookNameurl}`}
+            exact
+            element={<ChapterVideo videoIds={data.src} />}
+          />
+        ))}
+        {/* class lkg */}
+        {LkgData.map((data) => (
+          <Route
+            key={data.id}
+            path={`/videos/${data.BookNameurl}`}
+            exact
+            element={<ChapterVideo videoIds={data.src} />}
+          />
+        ))}
+        {/* class ukg */}
+        {UkgData.map((data) => (
+          <Route
+            key={data.id}
+            path={`/videos/${data.BookNameurl}`}
+            exact
+            element={<ChapterVideo videoIds={data.src} />}
+          />
+        ))}
       </Routes>
       <Contact />
-      <Footer/>
-
+      <Footer />
     </>
-
-  )
+  );
 }
 
 export default App;

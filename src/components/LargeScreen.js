@@ -69,9 +69,9 @@ const LargeScreen = () => {
                                                 <ul className='py-2 text-sm  absolute top-36 z-[-1] before:content-[""] after:content-[""] shadow-md  w-[200px] bg-white rounded-lg
                                                 transition-all duration-1000 ease-in transform '>
                                                     {
-                                                        ClassData.map(item => {
+                                                        ClassData.map((item, id)=> {
                                                             return (
-                                                                <Link to={item.direct}>
+                                                                <Link to={item.direct} key={id} >
                                                                     <li key={item.id} className=" block px-4 py-1 hover:bg-gray-100 dark:hover:bg-gray-600  dark:hover:text-white">
                                                                         {item.classCategory}
                                                                     </li>

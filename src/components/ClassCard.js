@@ -61,6 +61,7 @@ import { Link } from 'react-router-dom';
 
 const ClassCard = (props) => {
   const { url, bookname, classNameForPdf , fileId} = props;
+  console.log(url, bookname, classNameForPdf , fileId)
 // console.log(fileId)
 // console.log(props)
 
@@ -99,3 +100,10 @@ const ClassCard = (props) => {
 }
 
 export default ClassCard;
+
+
+
+
+
+
+
