@@ -10,7 +10,7 @@ const ChapterVideo = ({ videoIds, url }) => {
         {url}
       </p>
     </div>
-      <div className="main-container w-full flex flex-col max-sm:mx-7 md:grid md:grid-cols-2 m-5 mx-auto space-y-7 justify-center items-center mt-12">
+      <div className="main-container w-full flex flex-col  md:grid md:grid-cols-2 m-5 mx-auto space-y-7 justify-center items-center mt-12">
         {videoIdsArray.length === 0 ? (
           <p className="text-center w-screen mt-11 text-gray-500">
             No videos are available at the moment. We will update the videos

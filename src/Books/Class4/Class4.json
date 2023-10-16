@@ -8,7 +8,7 @@
   },
   {
     "BookName": "COMPUTER(4)",
-    "BookNameurl": "Computer-4",
+    "BookNameurl": "computer-4",
     "src": [],
     "fileId": "",
     "id": 2
@@ -43,7 +43,7 @@
   },
   {
     "BookName": "SST(4)",
-    "BookNameurl": "Sst-4",
+    "BookNameurl": "sst-4",
     "src": [],
     "fileId": "1X7jLGjWLFYd7afKsyLOYZeyoGIJg9Jk0",
     "id": 7
@@ -77,5 +77,54 @@
     "src": [],
     "fileId": "",
     "id": 10
+  },
+  {
+    "BookName": "Moral4",
+    "BookNameurl": "moral-4",
+    "src": [],
+    "fileId": "",
+    "id": 11
+  },
+  {
+    "BookName": "Sanskrit4",
+    "BookNameurl": "sanskrit-4",
+    "src": [],
+    "fileId": "",
+    "id": 12
+  },
+  {
+    "BookName": "Drawing4",
+    "BookNameurl": "drawing-4",
+    "src": [],
+    "fileId": "",
+    "id": 13
+  },
+  {
+    "BookName": "Mental-Maths4",
+    "BookNameurl": "mental-maths-4",
+    "src": [],
+    "fileId": "",
+    "id": 14
+  },
+  {
+    "BookName": "Cursive4",
+    "BookNameurl": "cursive-4",
+    "src": [],
+    "fileId": "",
+    "id": 15
+  },
+  {
+    "BookName": "Sulekh4",
+    "BookNameurl": "sulekh-4",
+    "src": [],
+    "fileId": "",
+    "id": 16
+  },
+  {
+    "BookName": "Conversation4",
+    "BookNameurl": "conversation-4",
+    "src": [],
+    "fileId": "",
+    "id": 17
   }
 ]

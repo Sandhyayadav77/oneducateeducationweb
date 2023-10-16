@@ -8,7 +8,7 @@
   },
   {
     "BookName": "COMPUTER(6)",
-    "BookNameurl": "Computer-6",
+    "BookNameurl": "computer-6",
     "src": [],
     "fileId": "",
     "id": 2
@@ -29,7 +29,7 @@
   },
   {
     "BookName": "SST(6)",
-    "BookNameurl": "Sst-6",
+    "BookNameurl": "sst-6",
     "src": [],
     "fileId": "1tITB-FBBYkCdzJkeWCgBvNQJflWGDDAF",
     "id": 5
@@ -61,5 +61,26 @@
     "src": [],
     "fileId": "",
     "id": 9
+  },
+  {
+    "BookName": "Moral6",
+    "BookNameurl": "moral-6",
+    "src": [],
+    "fileId": "",
+    "id": 11
+  },
+  {
+    "BookName": "Sanskrit6",
+    "BookNameurl": "sanskrit-6",
+    "src": [],
+    "fileId": "",
+    "id": 12
+  },
+  {
+    "BookName": "Drawing6",
+    "BookNameurl": "drawing-6",
+    "src": [],
+    "fileId": "",
+    "id": 13
   }
 ]

@@ -8,7 +8,7 @@
   },
   {
     "BookName": "COMPUTER(8)",
-    "BookNameurl": "Computer-8",
+    "BookNameurl": "computer-8",
     "src": "",
     "fileId": "",
     "id": 2
@@ -61,5 +61,26 @@
     "src": [],
     "fileId": "",
     "id": 9
+  },
+  {
+    "BookName": "Moral8",
+    "BookNameurl": "moral-8",
+    "src": [],
+    "fileId": "",
+    "id": 11
+  },
+  {
+    "BookName": "Sanskrit8",
+    "BookNameurl": "sanskrit-8",
+    "src": [],
+    "fileId": "",
+    "id": 12
+  },
+  {
+    "BookName": "Drawing8",
+    "BookNameurl": "drawing-8",
+    "src": [],
+    "fileId": "",
+    "id": 13
   }
 ]
