@@ -1,86 +1,65 @@
 [
   {
-    "BookName": "First Vocal Knowledge",
-    "BookNameurl": "first-vocal-knowledge",
+    "BookName": "English Primer",
+    "BookNameurl": "english-primer",
     "src": [],
     "fileId": "",
     "id": 1
   },
   {
-    "BookName": "Picture Book C",
-    "BookNameurl": "picture-book-c",
+    "BookName": "Combined Rhymes C",
+    "BookNameurl": "combined-rhymes-c",
     "src": [],
     "fileId": "",
     "id": 2
   },
   {
-    "BookName": "Tero 0",
-    "BookNameurl": "tero-0",
+    "BookName": "Drawing C",
+    "BookNameurl": "drawing-c",
     "src": [],
     "fileId": "",
     "id": 3
   },
   {
-    "BookName": "2 In 1 Beats Rhymes C",
-    "BookNameurl": "2-in-1-beats-rhymes-c",
+    "BookName": "Capital & Small Writing",
+    "BookNameurl": "capital-small-writing",
     "src": [],
     "fileId": "",
     "id": 4
   },
   {
-    "BookName": "Saffron English Primer",
-    "BookNameurl": "saffron-english-primer",
+    "BookName": "Table Book",
+    "BookNameurl": "table-book",
     "src": [],
     "fileId": "",
     "id": 5
   },
   {
-    "BookName": "My Table Tune",
-    "BookNameurl": "my-table-tune",
+    "BookName": "Picture Dictionary C",
+    "BookNameurl": "picture-dictionary-c",
     "src": [],
     "fileId": "",
     "id": 6
   },
   {
-    "BookName": "Improve Cursive Capital And Small Writing",
-    "BookNameurl": "improve-cursive-capital-and-small-writing",
+    "BookName": "Maths Primer",
+    "BookNameurl": "maths-primer",
     "src": [],
     "fileId": "",
     "id": 7
-  },
-  {
-    "BookName": "Vocal Pen",
-    "BookNameurl": "vocal-pen",
-    "src": [],
-    "fileId": "",
-    "id": 8
-  },
-  {
-    "BookName": "Maths Genuis Primer",
-    "BookNameurl": "maths-genius-primer",
-    "src": [],
-    "fileId": "",
-    "id": 9
-  },
-  {
-    "BookName": "Colouring Artist C",
-    "BookNameurl": "colouring-artist-c",
-    "src": [],
-    "fileId": "",
-    "id": 10
   },
   {
     "BookName": "Swar Gyan",
     "BookNameurl": "swar-gyan",
     "src": [],
     "fileId": "",
-    "id": 11
+    "id": 8
   },
   {
     "BookName": "Swar Rachna",
-    "BookNameurl": "Swar-rachna",
+    "BookNameurl": "swar-rachna",
     "src": [],
     "fileId": "",
-    "id": 12
+    "id": 9
   }
 ]
