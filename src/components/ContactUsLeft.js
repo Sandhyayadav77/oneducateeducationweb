@@ -19,8 +19,8 @@ const ContactUsLeft = () => {
                         <span className='lbl inline-block md:block pl-[55px] text-base text-[#6e6e6e]'>
                             Phone
                         </span>
-                        <br />
-                        <a href='tel:1234567890' className='max-sm:text-xs m-0 pl-[55px] font-bold text-black'>+91-8178892514</a>
+                      <br />  
+                        <a href='tel:1234567890' className='max-lg:text-xs m-0 pl-[55px] font-bold text-black'>+91-8178892514</a>
                     </div>
                 </div>
 
@@ -32,7 +32,7 @@ const ContactUsLeft = () => {
                         <span className='lbl block pl-[55px] text-base text-[#6e6e6e]'>
                             Email
                         </span>
-                        <h4 className='m-0 max-sm:text-xs pl-[55px] sm:font-semibold text-black'>oneducateeducation@gmail.com</h4>
+                        <h4 className='m-0 max-lg:text-xs pl-[55px] sm:font-semibold text-black'>oneducateeducation@gmail.com</h4>
                     </div>
                 </div>
 

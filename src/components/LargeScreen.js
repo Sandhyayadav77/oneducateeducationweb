@@ -46,12 +46,12 @@ const LargeScreen = () => {
 
                         {/* main-menu  */}
                         <div className="main-menu bg-[#fff] shadow-md mt-3 mx-[30px] flex items-center justify-between px-6 ">
-                            <div className="logo-panel">
+                            <div className="logo-panel max-lg: ml-[-20px]">
                                 <a href="/">
                                     <img src={logo} className='' alt="logo" />
                                 </a>
                             </div>
-                            <div className="main-panel ml-[-25%]">
+                            <div className="main-panel ml-[-17%] lg:ml-[-25%]">
                                 <ul className='p-0 m-0 inline-block list-none'>
                                     <li className='py-8 px-2 inline-block'>
                                         <Link to="/" className=" font-medium text-base hover:text-gray-600 uppercase font-Barlow ">Home</Link>
